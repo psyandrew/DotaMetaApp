@@ -1,0 +1,879 @@
+[
+    [
+        {
+            "name": "Ringmaster",
+            "hero_id": "ringmaster",
+            "winrate": 53.29,
+            "pickrate": 31.54,
+            "banrate": 3.47
+        },
+        {
+            "name": "Abaddon",
+            "hero_id": "abaddon",
+            "winrate": 55.48,
+            "pickrate": 11.23,
+            "banrate": 1.48
+        },
+        {
+            "name": "Lone Druid",
+            "hero_id": "lonedruid",
+            "winrate": 55.56,
+            "pickrate": 2.95,
+            "banrate": 1.64
+        },
+        {
+            "name": "Omniknight",
+            "hero_id": "omniknight",
+            "winrate": 54.9,
+            "pickrate": 9.06,
+            "banrate": 1.19
+        },
+        {
+            "name": "Tinker",
+            "hero_id": "tinker",
+            "winrate": 53.15,
+            "pickrate": 6.46,
+            "banrate": 4.1
+        },
+        {
+            "name": "Arc Warden",
+            "hero_id": "arcwarden",
+            "winrate": 53.84,
+            "pickrate": 3.0,
+            "banrate": 2.89
+        },
+        {
+            "name": "Windranger",
+            "hero_id": "windranger",
+            "winrate": 52.08,
+            "pickrate": 24.19,
+            "banrate": 1.9
+        },
+        {
+            "name": "Broodmother",
+            "hero_id": "broodmother",
+            "winrate": 53.24,
+            "pickrate": 2.42,
+            "banrate": 2.71
+        },
+        {
+            "name": "Oracle",
+            "hero_id": "oracle",
+            "winrate": 53.74,
+            "pickrate": 6.65,
+            "banrate": 1.07
+        },
+        {
+            "name": "Visage",
+            "hero_id": "visage",
+            "winrate": 54.03,
+            "pickrate": 3.92,
+            "banrate": 0.92
+        },
+        {
+            "name": "Medusa",
+            "hero_id": "medusa",
+            "winrate": 53.72,
+            "pickrate": 6.96,
+            "banrate": 0.84
+        },
+        {
+            "name": "Treant Protector",
+            "hero_id": "treantprotector",
+            "winrate": 53.83,
+            "pickrate": 9.41,
+            "banrate": 0.08
+        },
+        {
+            "name": "Legion Commander",
+            "hero_id": "legioncommander",
+            "winrate": 52.21,
+            "pickrate": 14.68,
+            "banrate": 1.77
+        },
+        {
+            "name": "Wraith King",
+            "hero_id": "wraithking",
+            "winrate": 53.35,
+            "pickrate": 9.33,
+            "banrate": 0.68
+        },
+        {
+            "name": "Night Stalker",
+            "hero_id": "nightstalker",
+            "winrate": 53.27,
+            "pickrate": 6.55,
+            "banrate": 1.11
+        },
+        {
+            "name": "Sand King",
+            "hero_id": "sandking",
+            "winrate": 51.94,
+            "pickrate": 17.44,
+            "banrate": 1.58
+        },
+        {
+            "name": "Outworld Destroyer",
+            "hero_id": "outworlddestroyer",
+            "winrate": 51.98,
+            "pickrate": 6.55,
+            "banrate": 3.02
+        },
+        {
+            "name": "Ursa",
+            "hero_id": "ursa",
+            "winrate": 51.39,
+            "pickrate": 11.18,
+            "banrate": 2.77
+        },
+        {
+            "name": "Pudge",
+            "hero_id": "pudge",
+            "winrate": 49.9,
+            "pickrate": 24.19,
+            "banrate": 3.1
+        },
+        {
+            "name": "Axe",
+            "hero_id": "axe",
+            "winrate": 50.64,
+            "pickrate": 16.64,
+            "banrate": 2.99
+        },
+        {
+            "name": "Nyx Assassin",
+            "hero_id": "nyxassassin",
+            "winrate": 51.38,
+            "pickrate": 10.58,
+            "banrate": 2.46
+        },
+        {
+            "name": "Kunkka",
+            "hero_id": "kunkka",
+            "winrate": 52.53,
+            "pickrate": 10.81,
+            "banrate": 0.25
+        },
+        {
+            "name": "Meepo",
+            "hero_id": "meepo",
+            "winrate": 51.73,
+            "pickrate": 1.32,
+            "banrate": 2.77
+        },
+        {
+            "name": "Void Spirit",
+            "hero_id": "voidspirit",
+            "winrate": 52.73,
+            "pickrate": 6.92,
+            "banrate": 0.23
+        },
+        {
+            "name": "Centaur Warrunner",
+            "hero_id": "centaurwarrunner",
+            "winrate": 52.27,
+            "pickrate": 11.12,
+            "banrate": 0.27
+        },
+        {
+            "name": "Vengeful Spirit",
+            "hero_id": "vengefulspirit",
+            "winrate": 52.0,
+            "pickrate": 10.9,
+            "banrate": 0.48
+        },
+        {
+            "name": "Marci",
+            "hero_id": "marci",
+            "winrate": 51.9,
+            "pickrate": 7.24,
+            "banrate": 0.69
+        },
+        {
+            "name": "Shadow Shaman",
+            "hero_id": "shadowshaman",
+            "winrate": 51.78,
+            "pickrate": 8.04,
+            "banrate": 0.67
+        },
+        {
+            "name": "Lich",
+            "hero_id": "lich",
+            "winrate": 51.82,
+            "pickrate": 10.69,
+            "banrate": 0.1
+        },
+        {
+            "name": "Clinkz",
+            "hero_id": "clinkz",
+            "winrate": 52.36,
+            "pickrate": 3.32,
+            "banrate": 0.29
+        },
+        {
+            "name": "Enigma",
+            "hero_id": "enigma",
+            "winrate": 52.43,
+            "pickrate": 2.79,
+            "banrate": 0.18
+        },
+        {
+            "name": "Luna",
+            "hero_id": "luna",
+            "winrate": 51.25,
+            "pickrate": 15.28,
+            "banrate": 0.21
+        },
+        {
+            "name": "Bounty Hunter",
+            "hero_id": "bountyhunter",
+            "winrate": 51.98,
+            "pickrate": 5.05,
+            "banrate": 0.38
+        },
+        {
+            "name": "Phantom Assassin",
+            "hero_id": "phantomassassin",
+            "winrate": 50.32,
+            "pickrate": 17.57,
+            "banrate": 1.08
+        },
+        {
+            "name": "Alchemist",
+            "hero_id": "alchemist",
+            "winrate": 51.87,
+            "pickrate": 6.15,
+            "banrate": 0.2
+        },
+        {
+            "name": "Clockwerk",
+            "hero_id": "clockwerk",
+            "winrate": 51.69,
+            "pickrate": 6.61,
+            "banrate": 0.36
+        },
+        {
+            "name": "Underlord",
+            "hero_id": "underlord",
+            "winrate": 51.7,
+            "pickrate": 6.6,
+            "banrate": 0.32
+        },
+        {
+            "name": "Bloodseeker",
+            "hero_id": "bloodseeker",
+            "winrate": 52.14,
+            "pickrate": 2.33,
+            "banrate": 0.15
+        },
+        {
+            "name": "Warlock",
+            "hero_id": "warlock",
+            "winrate": 51.54,
+            "pickrate": 6.55,
+            "banrate": 0.34
+        },
+        {
+            "name": "Ancient Apparition",
+            "hero_id": "ancientapparition",
+            "winrate": 51.52,
+            "pickrate": 5.58,
+            "banrate": 0.47
+        },
+        {
+            "name": "Huskar",
+            "hero_id": "huskar",
+            "winrate": 50.69,
+            "pickrate": 3.79,
+            "banrate": 2.09
+        },
+        {
+            "name": "Undying",
+            "hero_id": "undying",
+            "winrate": 51.69,
+            "pickrate": 5.15,
+            "banrate": 0.11
+        },
+        {
+            "name": "Viper",
+            "hero_id": "viper",
+            "winrate": 50.97,
+            "pickrate": 5.51,
+            "banrate": 1.21
+        },
+        {
+            "name": "Queen of Pain",
+            "hero_id": "queenofpain",
+            "winrate": 49.97,
+            "pickrate": 18.48,
+            "banrate": 0.89
+        },
+        {
+            "name": "Lifestealer",
+            "hero_id": "lifestealer",
+            "winrate": 50.7,
+            "pickrate": 5.61,
+            "banrate": 1.62
+        },
+        {
+            "name": "Earth Spirit",
+            "hero_id": "earthspirit",
+            "winrate": 51.63,
+            "pickrate": 4.9,
+            "banrate": 0.09
+        },
+        {
+            "name": "Witch Doctor",
+            "hero_id": "witchdoctor",
+            "winrate": 50.5,
+            "pickrate": 12.46,
+            "banrate": 0.81
+        },
+        {
+            "name": "Zeus",
+            "hero_id": "zeus",
+            "winrate": 50.71,
+            "pickrate": 12.17,
+            "banrate": 0.4
+        },
+        {
+            "name": "Io",
+            "hero_id": "io",
+            "winrate": 51.36,
+            "pickrate": 3.24,
+            "banrate": 0.64
+        },
+        {
+            "name": "Juggernaut",
+            "hero_id": "juggernaut",
+            "winrate": 50.72,
+            "pickrate": 10.6,
+            "banrate": 0.55
+        },
+        {
+            "name": "Shadow Fiend",
+            "hero_id": "shadowfiend",
+            "winrate": 48.96,
+            "pickrate": 17.58,
+            "banrate": 2.3
+        },
+        {
+            "name": "Shadow Demon",
+            "hero_id": "shadowdemon",
+            "winrate": 51.19,
+            "pickrate": 4.98,
+            "banrate": 0.21
+        },
+        {
+            "name": "Ogre Magi",
+            "hero_id": "ogremagi",
+            "winrate": 50.68,
+            "pickrate": 10.02,
+            "banrate": 0.23
+        },
+        {
+            "name": "Bane",
+            "hero_id": "bane",
+            "winrate": 51.33,
+            "pickrate": 2.4,
+            "banrate": 0.17
+        },
+        {
+            "name": "Earthshaker",
+            "hero_id": "earthshaker",
+            "winrate": 49.91,
+            "pickrate": 16.13,
+            "banrate": 0.4
+        },
+        {
+            "name": "Weaver",
+            "hero_id": "weaver",
+            "winrate": 50.21,
+            "pickrate": 8.84,
+            "banrate": 0.9
+        },
+        {
+            "name": "Riki",
+            "hero_id": "riki",
+            "winrate": 50.88,
+            "pickrate": 3.53,
+            "banrate": 0.59
+        },
+        {
+            "name": "Silencer",
+            "hero_id": "silencer",
+            "winrate": 50.44,
+            "pickrate": 5.96,
+            "banrate": 0.81
+        },
+        {
+            "name": "Lina",
+            "hero_id": "lina",
+            "winrate": 48.82,
+            "pickrate": 18.54,
+            "banrate": 1.6
+        },
+        {
+            "name": "Spectre",
+            "hero_id": "spectre",
+            "winrate": 50.47,
+            "pickrate": 7.1,
+            "banrate": 0.26
+        },
+        {
+            "name": "Puck",
+            "hero_id": "puck",
+            "winrate": 49.74,
+            "pickrate": 11.13,
+            "banrate": 0.84
+        },
+        {
+            "name": "Spirit Breaker",
+            "hero_id": "spiritbreaker",
+            "winrate": 49.42,
+            "pickrate": 8.78,
+            "banrate": 1.59
+        },
+        {
+            "name": "Lycan",
+            "hero_id": "lycan",
+            "winrate": 50.61,
+            "pickrate": 1.66,
+            "banrate": 0.45
+        },
+        {
+            "name": "Slark",
+            "hero_id": "slark",
+            "winrate": 49.59,
+            "pickrate": 8.45,
+            "banrate": 0.99
+        },
+        {
+            "name": "Mage",
+            "hero_id": "mage",
+            "winrate": 48.42,
+            "pickrate": 7.87,
+            "banrate": 2.96
+        },
+        {
+            "name": "Winter Wyvern",
+            "hero_id": "winterwyvern",
+            "winrate": 50.4,
+            "pickrate": 3.64,
+            "banrate": 0.23
+        },
+        {
+            "name": "Drow Ranger",
+            "hero_id": "drowranger",
+            "winrate": 49.93,
+            "pickrate": 7.97,
+            "banrate": 0.33
+        },
+        {
+            "name": "Lion",
+            "hero_id": "lion",
+            "winrate": 48.98,
+            "pickrate": 18.17,
+            "banrate": 0.37
+        },
+        {
+            "name": "Death Prophet",
+            "hero_id": "deathprophet",
+            "winrate": 50.52,
+            "pickrate": 2.33,
+            "banrate": 0.13
+        },
+        {
+            "name": "Dawnbreaker",
+            "hero_id": "dawnbreaker",
+            "winrate": 50.4,
+            "pickrate": 4.1,
+            "banrate": 0.05
+        },
+        {
+            "name": "Dark Willow",
+            "hero_id": "darkwillow",
+            "winrate": 50.21,
+            "pickrate": 5.15,
+            "banrate": 0.18
+        },
+        {
+            "name": "Phoenix",
+            "hero_id": "phoenix",
+            "winrate": 49.68,
+            "pickrate": 7.65,
+            "banrate": 0.69
+        },
+        {
+            "name": "Elder Titan",
+            "hero_id": "eldertitan",
+            "winrate": 50.53,
+            "pickrate": 1.57,
+            "banrate": 0.16
+        },
+        {
+            "name": "Skywrath Mage",
+            "hero_id": "skywrathmage",
+            "winrate": 50.1,
+            "pickrate": 6.01,
+            "banrate": 0.06
+        },
+        {
+            "name": "Magnus",
+            "hero_id": "magnus",
+            "winrate": 49.56,
+            "pickrate": 10.78,
+            "banrate": 0.24
+        },
+        {
+            "name": "Pugna",
+            "hero_id": "pugna",
+            "winrate": 50.34,
+            "pickrate": 2.83,
+            "banrate": 0.08
+        },
+        {
+            "name": "Necrophos",
+            "hero_id": "necrophos",
+            "winrate": 49.61,
+            "pickrate": 7.73,
+            "banrate": 0.56
+        },
+        {
+            "name": "Disruptor",
+            "hero_id": "disruptor",
+            "winrate": 49.84,
+            "pickrate": 6.76,
+            "banrate": 0.31
+        },
+        {
+            "name": "Timbersaw",
+            "hero_id": "timbersaw",
+            "winrate": 48.93,
+            "pickrate": 11.34,
+            "banrate": 1.03
+        },
+        {
+            "name": "Invoker",
+            "hero_id": "invoker",
+            "winrate": 48.75,
+            "pickrate": 16.33,
+            "banrate": 0.46
+        },
+        {
+            "name": "Leshrac",
+            "hero_id": "leshrac",
+            "winrate": 49.8,
+            "pickrate": 4.62,
+            "banrate": 0.36
+        },
+        {
+            "name": "Razor",
+            "hero_id": "razor",
+            "winrate": 49.62,
+            "pickrate": 6.91,
+            "banrate": 0.3
+        },
+        {
+            "name": "Sniper",
+            "hero_id": "sniper",
+            "winrate": 48.01,
+            "pickrate": 18.03,
+            "banrate": 1.28
+        },
+        {
+            "name": "Brewmaster",
+            "hero_id": "brewmaster",
+            "winrate": 50.1,
+            "pickrate": 1.13,
+            "banrate": 0.29
+        },
+        {
+            "name": "Storm Spirit",
+            "hero_id": "stormspirit",
+            "winrate": 49.16,
+            "pickrate": 8.71,
+            "banrate": 0.69
+        },
+        {
+            "name": "Keeper of the Light",
+            "hero_id": "keeperofthelight",
+            "winrate": 50.12,
+            "pickrate": 1.63,
+            "banrate": 0.08
+        },
+        {
+            "name": "Dragon Knight",
+            "hero_id": "dragonknight",
+            "winrate": 48.42,
+            "pickrate": 14.1,
+            "banrate": 0.62
+        },
+        {
+            "name": "Venomancer",
+            "hero_id": "venomancer",
+            "winrate": 48.92,
+            "pickrate": 6.06,
+            "banrate": 0.91
+        },
+        {
+            "name": "Ember Spirit",
+            "hero_id": "emberspirit",
+            "winrate": 48.59,
+            "pickrate": 8.38,
+            "banrate": 1.1
+        },
+        {
+            "name": "Rubick",
+            "hero_id": "rubick",
+            "winrate": 47.29,
+            "pickrate": 23.95,
+            "banrate": 0.79
+        },
+        {
+            "name": "Templar Assassin",
+            "hero_id": "templarassassin",
+            "winrate": 48.85,
+            "pickrate": 3.76,
+            "banrate": 0.66
+        },
+        {
+            "name": "Troll Warlord",
+            "hero_id": "trollwarlord",
+            "winrate": 49.06,
+            "pickrate": 2.93,
+            "banrate": 0.39
+        },
+        {
+            "name": "Slardar",
+            "hero_id": "slardar",
+            "winrate": 48.68,
+            "pickrate": 5.75,
+            "banrate": 0.37
+        },
+        {
+            "name": "Jakiro",
+            "hero_id": "jakiro",
+            "winrate": 47.97,
+            "pickrate": 13.69,
+            "banrate": 0.28
+        },
+        {
+            "name": "Chaos Knight",
+            "hero_id": "chaosknight",
+            "winrate": 48.61,
+            "pickrate": 2.81,
+            "banrate": 0.8
+        },
+        {
+            "name": "Faceless Void",
+            "hero_id": "facelessvoid",
+            "winrate": 48.3,
+            "pickrate": 5.88,
+            "banrate": 0.39
+        },
+        {
+            "name": "s Prophet",
+            "hero_id": "sprophet",
+            "winrate": 47.59,
+            "pickrate": 9.54,
+            "banrate": 0.98
+        },
+        {
+            "name": "Tiny",
+            "hero_id": "tiny",
+            "winrate": 47.23,
+            "pickrate": 8.19,
+            "banrate": 1.6
+        },
+        {
+            "name": "Tidehunter",
+            "hero_id": "tidehunter",
+            "winrate": 48.57,
+            "pickrate": 3.63,
+            "banrate": 0.04
+        },
+        {
+            "name": "Dark Seer",
+            "hero_id": "darkseer",
+            "winrate": 48.38,
+            "pickrate": 2.46,
+            "banrate": 48.38
+        },
+        {
+            "name": "Crystal Maiden",
+            "hero_id": "crystalmaiden",
+            "winrate": 47.84,
+            "pickrate": 8.51,
+            "banrate": 47.84
+        },
+        {
+            "name": "Mars",
+            "hero_id": "mars",
+            "winrate": 47.46,
+            "pickrate": 11.1,
+            "banrate": 47.46
+        },
+        {
+            "name": "Bristleback",
+            "hero_id": "bristleback",
+            "winrate": 47.6,
+            "pickrate": 5.0,
+            "banrate": 47.6
+        },
+        {
+            "name": "Doom",
+            "hero_id": "doom",
+            "winrate": 47.21,
+            "pickrate": 6.37,
+            "banrate": 47.21
+        },
+        {
+            "name": "Sven",
+            "hero_id": "sven",
+            "winrate": 47.48,
+            "pickrate": 3.58,
+            "banrate": 47.48
+        },
+        {
+            "name": "Gyrocopter",
+            "hero_id": "gyrocopter",
+            "winrate": 47.38,
+            "pickrate": 3.5,
+            "banrate": 47.38
+        },
+        {
+            "name": "Techies",
+            "hero_id": "techies",
+            "winrate": 46.52,
+            "pickrate": 5.67,
+            "banrate": 46.52
+        },
+        {
+            "name": "Primal Beast",
+            "hero_id": "primalbeast",
+            "winrate": 47.07,
+            "pickrate": 4.73,
+            "banrate": 47.07
+        },
+        {
+            "name": "Snapfire",
+            "hero_id": "snapfire",
+            "winrate": 46.72,
+            "pickrate": 7.61,
+            "banrate": 46.72
+        },
+        {
+            "name": "Enchantress",
+            "hero_id": "enchantress",
+            "winrate": 47.09,
+            "pickrate": 2.69,
+            "banrate": 47.09
+        },
+        {
+            "name": "Terrorblade",
+            "hero_id": "terrorblade",
+            "winrate": 47.14,
+            "pickrate": 1.93,
+            "banrate": 47.14
+        },
+        {
+            "name": "Hoodwink",
+            "hero_id": "hoodwink",
+            "winrate": 45.74,
+            "pickrate": 11.4,
+            "banrate": 45.74
+        },
+        {
+            "name": "Dazzle",
+            "hero_id": "dazzle",
+            "winrate": 46.63,
+            "pickrate": 5.45,
+            "banrate": 46.63
+        },
+        {
+            "name": "Mirana",
+            "hero_id": "mirana",
+            "winrate": 45.06,
+            "pickrate": 18.29,
+            "banrate": 45.06
+        },
+        {
+            "name": "Pangolier",
+            "hero_id": "pangolier",
+            "winrate": 46.44,
+            "pickrate": 3.68,
+            "banrate": 46.44
+        },
+        {
+            "name": "Beastmaster",
+            "hero_id": "beastmaster",
+            "winrate": 45.96,
+            "pickrate": 2.51,
+            "banrate": 45.96
+        },
+        {
+            "name": "Tusk",
+            "hero_id": "tusk",
+            "winrate": 45.88,
+            "pickrate": 7.37,
+            "banrate": 45.88
+        },
+        {
+            "name": "Grimstroke",
+            "hero_id": "grimstroke",
+            "winrate": 46.0,
+            "pickrate": 4.24,
+            "banrate": 46.0
+        },
+        {
+            "name": "Monkey King",
+            "hero_id": "monkeyking",
+            "winrate": 45.0,
+            "pickrate": 10.23,
+            "banrate": 45.0
+        },
+        {
+            "name": "Naga Siren",
+            "hero_id": "nagasiren",
+            "winrate": 45.62,
+            "pickrate": 2.51,
+            "banrate": 45.62
+        },
+        {
+            "name": "Morphling",
+            "hero_id": "morphling",
+            "winrate": 44.61,
+            "pickrate": 8.85,
+            "banrate": 44.61
+        },
+        {
+            "name": "Muerta",
+            "hero_id": "muerta",
+            "winrate": 44.44,
+            "pickrate": 2.32,
+            "banrate": 44.44
+        },
+        {
+            "name": "Phantom Lancer",
+            "hero_id": "phantomlancer",
+            "winrate": 43.95,
+            "pickrate": 1.38,
+            "banrate": 43.95
+        },
+        {
+            "name": "Chen",
+            "hero_id": "chen",
+            "winrate": 44.07,
+            "pickrate": 0.45,
+            "banrate": 44.07
+        },
+        {
+            "name": "Batrider",
+            "hero_id": "batrider",
+            "winrate": 42.68,
+            "pickrate": 1.41,
+            "banrate": 42.68
+        }
+    ]
+]

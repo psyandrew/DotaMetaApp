@@ -1,5 +1,9 @@
 from pathlib import Path
 from mongoengine import connect
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -7,24 +11,21 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Connect to MongoDB using MongoEngine
 connect(
-    db='DotaData',
-    username='caseroandrew',
-    password='OQSMRWCqFiE6Q8mG',
-    host='mongodb+srv://cluster0.40kkd.mongodb.net/',
+    db=os.getenv('MONGO_DB_NAME'),
+    username=os.getenv('MONGO_USERNAME'),
+    password=os.getenv('MONGO_PASSWORD'),
+    host=os.getenv('MONGO_HOST'),
     authentication_source='admin',
     ssl=True
 )
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-l)ojwo5!fvkmt#3ji%(5$41m&oejz*lcv4^!h7b37x2g=qbrye'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
 ALLOWED_HOSTS = []
+
+SECRET_KEY = os.getenv('SECRET_KEY')
+
+DEBUG = os.getenv('DEBUG', 'False') == 'True'
+
+
 
 # Application definition
 

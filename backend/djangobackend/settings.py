@@ -10,10 +10,10 @@ load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-MONGO_DB_NAME=DotaData
-MONGO_USERNAME=caseroandrew
-MONGO_PASSWORD=OQSMRWCqFiE6Q8mG
-MONGO_HOST=mongodb+srv://cluster0.40kkd.mongodb.net/
+MONGO_DB_NAME='DotaData'
+MONGO_USERNAME='caseroandrew'
+MONGO_PASSWORD='OQSMRWCqFiE6Q8mG'
+MONGO_HOST='mongodb+srv://cluster0.40kkd.mongodb.net/'
 
 # Connect to MongoDB using MongoEngine
 connect(

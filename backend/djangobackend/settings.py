@@ -16,14 +16,14 @@ MONGO_PASSWORD='OQSMRWCqFiE6Q8mG'
 MONGO_HOST='mongodb+srv://cluster0.40kkd.mongodb.net/'
 
 # Connect to MongoDB using MongoEngine
+MONGO_URI = f"mongodb+srv://{MONGO_USERNAME}:{MONGO_PASSWORD}@{MONGO_HOST}/{MONGO_DB_NAME}?retryWrites=true&w=majority"
+
 connect(
-    db=os.getenv('MONGO_DB_NAME'),
-    username=os.getenv('MONGO_USERNAME'),
-    password=os.getenv('MONGO_PASSWORD'),
-    host=os.getenv('MONGO_HOST'),
-    authentication_source='admin',
+    db=MONGO_DB_NAME,
+    host=MONGO_URI,
     ssl=True
 )
+
 
 DEBUG = True
 ALLOWED_HOSTS = ['.railway.app', 'localhost', '127.0.0.1']

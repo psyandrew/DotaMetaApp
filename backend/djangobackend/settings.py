@@ -19,13 +19,10 @@ connect(
     ssl=True
 )
 
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['.railway.app', 'localhost', '127.0.0.1']
 
 SECRET_KEY = os.getenv('SECRET_KEY')
-
-
-
 
 # Application definition
 

@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'bsr3n7xg&_1$=d0_3d1z&9joi1b5#1d$(qv91b8b*0%qomzy=9'
 
 if not SECRET_KEY:
     print("The SECRET_KEY setting must not be empty.")

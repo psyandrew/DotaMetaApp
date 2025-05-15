@@ -10,10 +10,10 @@ def test(request):
 	try:
 		return JsonResponse({'message': 'hi'}, safe=False, status=200)
 	except Exception as e:
-        import traceback
-        print("Error in TEST:", e)
-        traceback.print_exc()
-        return JsonResponse({'error': 'Internal Server Error'}, status=500)
+		import traceback
+		print("Error in TEST:", e)
+		traceback.print_exc()
+		return JsonResponse({'error': 'Internal Server Error'}, status=500)
 
 @api_view(['GET'])
 def get_rosterdata(request):
@@ -38,10 +38,10 @@ def get_rosterdata(request):
         return JsonResponse(hero_metadata, safe=False, status=200)
 
     except Exception as e:
-        import traceback
-        print("Error in get_rosterdata:", e)
-        traceback.print_exc()
-        return JsonResponse({'error': 'Internal Server Error'}, status=500)
+    	import traceback
+    	print("Error in get_rosterdata:", e)
+    	traceback.print_exc()
+    	return JsonResponse({'error': 'Internal Server Error'}, status=500)
 
 
 

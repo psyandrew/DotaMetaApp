@@ -1,12 +1,16 @@
 from django.http import JsonResponse
 from mongoengine import DoesNotExist
 from .models import  Hero
+from rest_framework.decorators import api_view
 
+
+@api_view(['GET'])
 def test(request):
 	return JsonResponse({'message': 'hi'}, safe=False, status=200)
 
-
+@api_view(['GET'])
 def get_rosterdata(request):
+
 	hero_roster = Hero.objects.all()
 	
 	hero_metadata = []
@@ -30,7 +34,7 @@ def get_rosterdata(request):
 
 
 
-
+@api_view(['GET'])
 def get_herodata(request, hero_id):
     try:
         hero = Hero.objects.get(hero_id=hero_id)  # Fetch the book by its ID

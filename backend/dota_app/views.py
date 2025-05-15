@@ -4,33 +4,45 @@ from .models import  Hero
 from rest_framework.decorators import api_view
 
 
+
 @api_view(['GET'])
 def test(request):
-	return JsonResponse({'message': 'hi'}, safe=False, status=200)
+	try:
+		return JsonResponse({'message': 'hi'}, safe=False, status=200)
+	except Exception as e:
+        import traceback
+        print("Error in TEST:", e)
+        traceback.print_exc()
+        return JsonResponse({'error': 'Internal Server Error'}, status=500)
 
 @api_view(['GET'])
 def get_rosterdata(request):
+    try:
+        hero_roster = Hero.objects.all()
+        
+        hero_metadata = []
 
-	hero_roster = Hero.objects.all()
-	
-	hero_metadata = []
+        for hero in hero_roster:
+            hero_metadata.append({
+                'name': hero['name'],
+                'hero_id': hero['hero_id'],
+                'success_rate': hero['success_rate'],
+                'pick_rate': hero['pick_rate'],
+                'ban_rate': hero['ban_rate'],
+                'GPM': hero['GPM'],
+                'XPM': hero['XPM'],
+                'KDA': hero['KDA'],
+                'attribute': hero['attribute'],
+            })
 
+        return JsonResponse(hero_metadata, safe=False, status=200)
 
-	for hero in hero_roster:
-		hero_metadata.append({
-				'name': hero['name'],
-				'hero_id':hero['hero_id'],
-				'success_rate':hero['success_rate'],
-				'pick_rate':hero['pick_rate'],
-				'ban_rate':hero['ban_rate'],
-				'GPM':hero['GPM'],
-				'XPM':hero['XPM'],
-				'KDA':hero['KDA'],
-				'attribute': hero['attribute'],
-				
-			})
+    except Exception as e:
+        import traceback
+        print("Error in get_rosterdata:", e)
+        traceback.print_exc()
+        return JsonResponse({'error': 'Internal Server Error'}, status=500)
 
-	return JsonResponse(hero_metadata, safe=False, status=200)
 
 
 

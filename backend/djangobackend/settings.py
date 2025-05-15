@@ -1,21 +1,19 @@
 from pathlib import Path
 from mongoengine import connect
 import os
+
+# Optional: dotenv for local testing
 from dotenv import load_dotenv
-
-
 load_dotenv()
 
-
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-MONGO_DB_NAME='DotaData'
-MONGO_USERNAME='caseroandrew'
-MONGO_PASSWORD='OQSMRWCqFiE6Q8mG'
-MONGO_HOST='mongodb+srv://cluster0.40kkd.mongodb.net/'
+# Direct credentials (only for temporary testing — don't commit this)
+MONGO_DB_NAME = 'DotaData'
+MONGO_USERNAME = 'caseroandrew'
+MONGO_PASSWORD = 'OQSMRWCqFiE6Q8mG'
+MONGO_HOST = 'cluster0.40kkd.mongodb.net'  # ✅ No "mongodb+srv://" here
 
-# Connect to MongoDB using MongoEngine
 MONGO_URI = f"mongodb+srv://{MONGO_USERNAME}:{MONGO_PASSWORD}@{MONGO_HOST}/{MONGO_DB_NAME}?retryWrites=true&w=majority"
 
 connect(
@@ -23,7 +21,6 @@ connect(
     host=MONGO_URI,
     ssl=True
 )
-
 
 DEBUG = True
 ALLOWED_HOSTS = ['.railway.app', 'localhost', '127.0.0.1']

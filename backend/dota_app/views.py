@@ -2,6 +2,10 @@ from django.http import JsonResponse
 from mongoengine import DoesNotExist
 from .models import  Hero
 
+def test(request):
+	return JsonResponse({'message': 'hi'}, safe=False, status=200)
+
+
 def get_rosterdata(request):
 
 	hero_roster = Hero.objects.all()

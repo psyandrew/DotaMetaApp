@@ -7,7 +7,6 @@ def test(request):
 
 
 def get_rosterdata(request):
-
 	hero_roster = Hero.objects.all()
 	
 	hero_metadata = []

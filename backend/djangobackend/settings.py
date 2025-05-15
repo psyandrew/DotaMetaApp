@@ -71,7 +71,7 @@ TEMPLATES = [
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 if not SECRET_KEY:
-    raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
+    print("The SECRET_KEY setting must not be empty.")
 
 WSGI_APPLICATION = 'djangobackend.wsgi.application'
 

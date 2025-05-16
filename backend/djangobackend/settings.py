@@ -8,6 +8,10 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+sample_string = os.getenv('TEST', 'default')
+
+print(sample_string)
+
 # Direct credentials (only for temporary testing — don't commit this)
 MONGO_DB_NAME = 'DotaData'
 MONGO_USERNAME = 'caseroandrew'

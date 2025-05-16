@@ -2,23 +2,16 @@ from pathlib import Path
 from mongoengine import connect
 import os
 
-# Optional: dotenv for local testing
-from dotenv import load_dotenv
-load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-sample_string = os.getenv('TEST', 'default')
+SECRET_KEY = os.getenv('SECRET_KEY', 'default')
+MONGO_URI = os.getenv('MONGO_URI', 'default')
 
-print(sample_string)
+print(SECRET_KEY)
+print(MONGO_URI)
 
-# Direct credentials (only for temporary testing — don't commit this)
 MONGO_DB_NAME = 'DotaData'
-MONGO_USERNAME = 'caseroandrew'
-MONGO_PASSWORD = 'OQSMRWCqFiE6Q8mG'
-MONGO_HOST = 'cluster0.40kkd.mongodb.net'  # ✅ No "mongodb+srv://" here
-
-MONGO_URI = f"mongodb+srv://{MONGO_USERNAME}:{MONGO_PASSWORD}@{MONGO_HOST}/{MONGO_DB_NAME}?retryWrites=true&w=majority"
 
 connect(
     db=MONGO_DB_NAME,
@@ -28,8 +21,6 @@ connect(
 
 DEBUG = True
 ALLOWED_HOSTS = ['.railway.app', 'localhost', '127.0.0.1']
-
-SECRET_KEY = os.getenv('SECRET_KEY')
 
 # Application definition
 
@@ -74,18 +65,8 @@ TEMPLATES = [
     },
 ]
 
-SECRET_KEY = 'bsr3n7xg&_1$=d0_3d1z&9joi1b5#1d$(qv91b8b*0%qomzy=9'
-
-if not SECRET_KEY:
-    print("The SECRET_KEY setting must not be empty.")
-
 WSGI_APPLICATION = 'djangobackend.wsgi.application'
 
-# Database
-# Removed since we are using MongoEngine
-
-# Password validation
-# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {

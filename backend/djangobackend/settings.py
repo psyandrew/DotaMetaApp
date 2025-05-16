@@ -8,9 +8,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY', 'default')
 MONGO_URI = os.getenv('MONGO_URI', 'default')
 
-print(SECRET_KEY)
-print(MONGO_URI)
-
 MONGO_DB_NAME = 'DotaData'
 
 connect(

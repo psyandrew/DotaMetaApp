@@ -3,7 +3,7 @@ import { useEffect }from "react";
 // call the whole database
 function RosterFetch(setMeta) { 
 	useEffect(()=> {
-    fetch('http://dotametaapp-production.up.railway.app/roster', {
+    fetch('https://dotametaapp-production.up.railway.app/roster', {
         method: 'GET',
         headers: { 'Content-Type': 'application/json',},
       }).then(response => {
@@ -18,7 +18,7 @@ function RosterFetch(setMeta) {
 function HeroFetch(heroid, setHeroData ) {
  
 	useEffect(()=> {
-	    fetch(`http://dotametaapp-production.up.railway.app/hero/${heroid}`, {
+	    fetch(`https://dotametaapp-production.up.railway.app/hero/${heroid}`, {
 	        method: 'GET',
 	        headers: { 'Content-Type': 'application/json',},
 	      }).then(response => {

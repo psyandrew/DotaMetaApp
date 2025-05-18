@@ -43,7 +43,7 @@ function Profile() {
               <GoodMatchUpsComponent data={heroData['good_matchup']} />
               <BadMatchUpsComponent data={heroData['bad_matchup']} />  
               <ItemsComponent data={heroData['items']} />
-              <button onClick={() => window.location.href='http://localhost:3000'}>HOME</button>  
+              <button onClick={() => window.location.href='https://dota-meta-app.vercel.app/'}>HOME</button>  
             </div>
           </div>
           )

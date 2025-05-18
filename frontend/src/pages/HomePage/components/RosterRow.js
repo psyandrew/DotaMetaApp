@@ -11,7 +11,7 @@ export default function RosterRow ({heroDetails, rowKey }) {
     return(
       <tr className={"hptable-row " + (rowKey % 2 === 0 ? 'evencolor' : 'oddcolor')}>
         <td>
-          <span className="hptable-row-1" onClick={() => window.location.href='http://localhost:3000/hero/' + heroDetails[1]}>
+          <span className="hptable-row-1" onClick={() => window.location.href='https://dota-meta-app.vercel.app/hero/' + heroDetails[1]}>
             <img className="hero-icon" alt={hero_icon[heroDetails[1] + '.jpeg']} src={hero_icon[heroDetails[1] + '.jpeg']}/>
             <p> {heroDetails[0]} </p>
           </span>

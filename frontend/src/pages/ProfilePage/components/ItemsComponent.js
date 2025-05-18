@@ -7,7 +7,7 @@ export default function ItemsComponent({data}){
         <div className="cards-container">
         {
           data.map((x)=>(
-            <div className="matchup-cards">
+            <div className="item-cards">
               <img className='img-matchup' alt={x['item_name']} src={require(`../../../styles/assets/item_icons/${x['item_name'].replace(/\s/g, '').toLowerCase()}.png`)} />
               <p> {x['item_name']} </p>
               <p> win rate:</p>

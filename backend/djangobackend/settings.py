@@ -17,7 +17,8 @@ connect(
 )
 
 DEBUG = True
-ALLOWED_HOSTS = ['.railway.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['.railway.app', 'localhost', '127.0.0.1', '.onrender.com']
+
 
 # Application definition
 

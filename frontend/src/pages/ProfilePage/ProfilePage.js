@@ -4,7 +4,7 @@ import {default as Header} from '../../globalcomponents/HeaderProfile.js'
 import Loading from '../../globalcomponents/Loading.js'
 
 
-import { HeroFetch } from '../../globalcomponents/EffectHooks.js'
+import { HeroFetch } from '../../globalcomponents/FetchComponents.js'
 
 import  FacetsComponent  from './components/FacetsComponent.js'
 import  LaningComponent  from './components/LaningComponent.js'

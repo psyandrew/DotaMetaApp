@@ -1,7 +1,7 @@
 import {useState } from "react";
 
 
-import { RosterFetch, RankDistributionFetch  } from '../../globalcomponents/EffectHooks.js'
+import { RosterFetch, RankDistributionFetch  } from '../../globalcomponents/FetchComponents.js'
 import {default as Header} from '../../globalcomponents/HeaderHomepage.js' 
 import HomePageTable from './components/HomePageTable.js'
 import Loading from '../../globalcomponents/Loading.js'

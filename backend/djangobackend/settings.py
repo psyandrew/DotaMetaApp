@@ -15,7 +15,7 @@ MONGO_DB_NAME = 'DotaData'
 
 connect(
     db=MONGO_DB_NAME,
-    host=MONGO_URI,
+    host=MONGOURI,
     ssl=True
 )
 

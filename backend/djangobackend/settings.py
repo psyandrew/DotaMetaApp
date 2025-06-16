@@ -5,8 +5,11 @@ import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.getenv('SECRET_KEY', 'default')
-MONGO_URI = os.getenv('MONGO_URI', 'default')
+SECRET_KEY = os.getenv('SECRET_KEY')
+MONGO_URI = os.getenv('MONGO_URI')
+
+print(MONGO_URI)
+print(SECRET_KEY)
 
 MONGO_DB_NAME = 'DotaData'
 

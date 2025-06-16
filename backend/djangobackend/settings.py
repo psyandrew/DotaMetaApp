@@ -9,6 +9,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 MONGOURI = os.getenv('MONGO_URI')
 
 print(MONGOURI)
+print('meow')
 print(SECRET_KEY)
 
 MONGO_DB_NAME = 'DotaData'

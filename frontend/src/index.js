@@ -5,6 +5,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 import HomePage from './pages/HomePage/HomePage';
 import Profile from './pages/ProfilePage/ProfilePage';
+import NotFoundPage from './pages/NotFoundPage/NotFoundPage';
 
 
 const router = createBrowserRouter([
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   { 
     path: '/hero/:heroid', 
     element: <Profile />
+  },
+  { 
+    path: '*', 
+    element: <NotFoundPage />
   }
 
   ]);
